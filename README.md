@@ -12,7 +12,7 @@ The system is designed to detect and alert on common attack vectors, such as **p
 | :--- | :--- | :--- |
 | **Snort IDS** | Network Intrusion Detection and Alerting | Ubuntu Server (Virtual Machine) |
 | **Splunk Universal Forwarder (UF)** | Agent to collect and forward Snort logs | Ubuntu Server (Virtual Machine) |
-| **Splunk Enterprise** | Log Indexing, Analysis, and Visualization | Host Operating System (e.g., Windows 11) |
+| **Splunk Enterprise** | Log Indexing, Analysis, and Visualization | Host Operating System (Windows 11) |
 | **Attacker Host** | Used for testing custom detection rules | Kali Linux (Virtual Machine) |
 
 ### Network Environment
@@ -21,8 +21,8 @@ The solution operates within a private, bridged network where all hosts can comm
 
 | Host Role | Placeholder IP |
 | :--- | :--- |
-| **Snort Host / UF** | `$$SNORT_HOST_IP$$` |
-| **Splunk Indexer** | `$$SPLUNK_INDEXER_IP$$` |
+| **Snort Host / UF** | `SNORT_HOST_IP` |
+| **Splunk Indexer** | `SPLUNK_INDEXER_IP` |
 | **Network Range** | `192.168.1.0/24` (Example HOME_NET) |
 
 ### Documentation Structure
@@ -38,4 +38,4 @@ This project includes detailed documentation to guide setup, configuration, and 
 
 ### 💡 Next Steps
 
-To dive into the configuration details and deployment steps, please start with the **doc/Master_Playbook.md)**.
+To dive into the configuration details and deployment steps, please start with the **[Master Playbook](docs/Master_Playbook.md)**.
