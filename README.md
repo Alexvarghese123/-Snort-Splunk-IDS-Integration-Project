@@ -38,4 +38,4 @@ This project includes detailed documentation to guide setup, configuration, and 
 
 ### 💡 Next Steps
 
-To dive into the configuration details and deployment steps, please start with the **[Master Playbook](docs/Master_Playbook.md)**.
+To dive into the configuration details and deployment steps, please start with the **doc/Master_Playbook.md)**.
